@@ -1,0 +1,150 @@
+,support,itemsets,length
+0,0.2,frozenset({'apple'}),1
+1,0.4,frozenset({'corn'}),1
+2,0.2,frozenset({'dill'}),1
+3,0.8,frozenset({'eggs'}),1
+4,0.2,frozenset({'ice cream'}),1
+5,1.0,frozenset({'kidney beans'}),1
+6,0.6,frozenset({'milk'}),1
+7,0.4,frozenset({'nutmeg'}),1
+8,0.6,frozenset({'onion'}),1
+9,0.2,frozenset({'unicorn'}),1
+10,0.6,frozenset({'yogurt'}),1
+11,0.2,"frozenset({'eggs', 'apple'})",2
+12,0.2,"frozenset({'kidney beans', 'apple'})",2
+13,0.2,"frozenset({'milk', 'apple'})",2
+14,0.2,"frozenset({'eggs', 'corn'})",2
+15,0.2,"frozenset({'ice cream', 'corn'})",2
+16,0.4,"frozenset({'kidney beans', 'corn'})",2
+17,0.2,"frozenset({'milk', 'corn'})",2
+18,0.2,"frozenset({'onion', 'corn'})",2
+19,0.2,"frozenset({'unicorn', 'corn'})",2
+20,0.2,"frozenset({'yogurt', 'corn'})",2
+21,0.2,"frozenset({'dill', 'eggs'})",2
+22,0.2,"frozenset({'dill', 'kidney beans'})",2
+23,0.2,"frozenset({'dill', 'nutmeg'})",2
+24,0.2,"frozenset({'onion', 'dill'})",2
+25,0.2,"frozenset({'yogurt', 'dill'})",2
+26,0.2,"frozenset({'ice cream', 'eggs'})",2
+27,0.8,"frozenset({'kidney beans', 'eggs'})",2
+28,0.4,"frozenset({'milk', 'eggs'})",2
+29,0.4,"frozenset({'nutmeg', 'eggs'})",2
+30,0.6,"frozenset({'onion', 'eggs'})",2
+31,0.4,"frozenset({'yogurt', 'eggs'})",2
+32,0.2,"frozenset({'ice cream', 'kidney beans'})",2
+33,0.2,"frozenset({'onion', 'ice cream'})",2
+34,0.6,"frozenset({'kidney beans', 'milk'})",2
+35,0.4,"frozenset({'kidney beans', 'nutmeg'})",2
+36,0.6,"frozenset({'onion', 'kidney beans'})",2
+37,0.2,"frozenset({'unicorn', 'kidney beans'})",2
+38,0.6,"frozenset({'yogurt', 'kidney beans'})",2
+39,0.2,"frozenset({'nutmeg', 'milk'})",2
+40,0.2,"frozenset({'onion', 'milk'})",2
+41,0.2,"frozenset({'unicorn', 'milk'})",2
+42,0.4,"frozenset({'yogurt', 'milk'})",2
+43,0.4,"frozenset({'onion', 'nutmeg'})",2
+44,0.4,"frozenset({'yogurt', 'nutmeg'})",2
+45,0.4,"frozenset({'onion', 'yogurt'})",2
+46,0.2,"frozenset({'unicorn', 'yogurt'})",2
+47,0.2,"frozenset({'kidney beans', 'eggs', 'apple'})",3
+48,0.2,"frozenset({'milk', 'eggs', 'apple'})",3
+49,0.2,"frozenset({'milk', 'kidney beans', 'apple'})",3
+50,0.2,"frozenset({'ice cream', 'eggs', 'corn'})",3
+51,0.2,"frozenset({'kidney beans', 'eggs', 'corn'})",3
+52,0.2,"frozenset({'onion', 'eggs', 'corn'})",3
+53,0.2,"frozenset({'ice cream', 'kidney beans', 'corn'})",3
+54,0.2,"frozenset({'onion', 'ice cream', 'corn'})",3
+55,0.2,"frozenset({'milk', 'kidney beans', 'corn'})",3
+56,0.2,"frozenset({'onion', 'kidney beans', 'corn'})",3
+57,0.2,"frozenset({'unicorn', 'kidney beans', 'corn'})",3
+58,0.2,"frozenset({'yogurt', 'kidney beans', 'corn'})",3
+59,0.2,"frozenset({'unicorn', 'milk', 'corn'})",3
+60,0.2,"frozenset({'yogurt', 'milk', 'corn'})",3
+61,0.2,"frozenset({'unicorn', 'yogurt', 'corn'})",3
+62,0.2,"frozenset({'dill', 'kidney beans', 'eggs'})",3
+63,0.2,"frozenset({'dill', 'nutmeg', 'eggs'})",3
+64,0.2,"frozenset({'onion', 'dill', 'eggs'})",3
+65,0.2,"frozenset({'yogurt', 'dill', 'eggs'})",3
+66,0.2,"frozenset({'dill', 'kidney beans', 'nutmeg'})",3
+67,0.2,"frozenset({'onion', 'dill', 'kidney beans'})",3
+68,0.2,"frozenset({'yogurt', 'dill', 'kidney beans'})",3
+69,0.2,"frozenset({'onion', 'dill', 'nutmeg'})",3
+70,0.2,"frozenset({'yogurt', 'dill', 'nutmeg'})",3
+71,0.2,"frozenset({'onion', 'yogurt', 'dill'})",3
+72,0.2,"frozenset({'ice cream', 'kidney beans', 'eggs'})",3
+73,0.2,"frozenset({'onion', 'ice cream', 'eggs'})",3
+74,0.4,"frozenset({'milk', 'kidney beans', 'eggs'})",3
+75,0.4,"frozenset({'kidney beans', 'nutmeg', 'eggs'})",3
+76,0.6,"frozenset({'onion', 'kidney beans', 'eggs'})",3
+77,0.4,"frozenset({'yogurt', 'kidney beans', 'eggs'})",3
+78,0.2,"frozenset({'milk', 'nutmeg', 'eggs'})",3
+79,0.2,"frozenset({'onion', 'milk', 'eggs'})",3
+80,0.2,"frozenset({'yogurt', 'milk', 'eggs'})",3
+81,0.4,"frozenset({'onion', 'nutmeg', 'eggs'})",3
+82,0.4,"frozenset({'yogurt', 'nutmeg', 'eggs'})",3
+83,0.4,"frozenset({'onion', 'yogurt', 'eggs'})",3
+84,0.2,"frozenset({'onion', 'ice cream', 'kidney beans'})",3
+85,0.2,"frozenset({'kidney beans', 'nutmeg', 'milk'})",3
+86,0.2,"frozenset({'onion', 'kidney beans', 'milk'})",3
+87,0.2,"frozenset({'unicorn', 'kidney beans', 'milk'})",3
+88,0.4,"frozenset({'yogurt', 'kidney beans', 'milk'})",3
+89,0.4,"frozenset({'onion', 'kidney beans', 'nutmeg'})",3
+90,0.4,"frozenset({'yogurt', 'kidney beans', 'nutmeg'})",3
+91,0.4,"frozenset({'onion', 'yogurt', 'kidney beans'})",3
+92,0.2,"frozenset({'unicorn', 'yogurt', 'kidney beans'})",3
+93,0.2,"frozenset({'onion', 'nutmeg', 'milk'})",3
+94,0.2,"frozenset({'yogurt', 'nutmeg', 'milk'})",3
+95,0.2,"frozenset({'onion', 'yogurt', 'milk'})",3
+96,0.2,"frozenset({'unicorn', 'yogurt', 'milk'})",3
+97,0.4,"frozenset({'onion', 'yogurt', 'nutmeg'})",3
+98,0.2,"frozenset({'milk', 'kidney beans', 'eggs', 'apple'})",4
+99,0.2,"frozenset({'ice cream', 'kidney beans', 'eggs', 'corn'})",4
+100,0.2,"frozenset({'onion', 'ice cream', 'eggs', 'corn'})",4
+101,0.2,"frozenset({'onion', 'kidney beans', 'eggs', 'corn'})",4
+102,0.2,"frozenset({'onion', 'ice cream', 'kidney beans', 'corn'})",4
+103,0.2,"frozenset({'unicorn', 'milk', 'kidney beans', 'corn'})",4
+104,0.2,"frozenset({'milk', 'yogurt', 'kidney beans', 'corn'})",4
+105,0.2,"frozenset({'unicorn', 'yogurt', 'kidney beans', 'corn'})",4
+106,0.2,"frozenset({'unicorn', 'yogurt', 'milk', 'corn'})",4
+107,0.2,"frozenset({'dill', 'kidney beans', 'nutmeg', 'eggs'})",4
+108,0.2,"frozenset({'onion', 'dill', 'kidney beans', 'eggs'})",4
+109,0.2,"frozenset({'yogurt', 'dill', 'kidney beans', 'eggs'})",4
+110,0.2,"frozenset({'onion', 'dill', 'nutmeg', 'eggs'})",4
+111,0.2,"frozenset({'yogurt', 'dill', 'nutmeg', 'eggs'})",4
+112,0.2,"frozenset({'onion', 'yogurt', 'dill', 'eggs'})",4
+113,0.2,"frozenset({'onion', 'dill', 'kidney beans', 'nutmeg'})",4
+114,0.2,"frozenset({'yogurt', 'dill', 'kidney beans', 'nutmeg'})",4
+115,0.2,"frozenset({'onion', 'yogurt', 'dill', 'kidney beans'})",4
+116,0.2,"frozenset({'onion', 'yogurt', 'dill', 'nutmeg'})",4
+117,0.2,"frozenset({'onion', 'ice cream', 'kidney beans', 'eggs'})",4
+118,0.2,"frozenset({'milk', 'kidney beans', 'nutmeg', 'eggs'})",4
+119,0.2,"frozenset({'onion', 'milk', 'kidney beans', 'eggs'})",4
+120,0.2,"frozenset({'milk', 'yogurt', 'kidney beans', 'eggs'})",4
+121,0.4,"frozenset({'onion', 'kidney beans', 'nutmeg', 'eggs'})",4
+122,0.4,"frozenset({'yogurt', 'kidney beans', 'nutmeg', 'eggs'})",4
+123,0.4,"frozenset({'onion', 'yogurt', 'kidney beans', 'eggs'})",4
+124,0.2,"frozenset({'onion', 'milk', 'nutmeg', 'eggs'})",4
+125,0.2,"frozenset({'yogurt', 'milk', 'nutmeg', 'eggs'})",4
+126,0.2,"frozenset({'onion', 'yogurt', 'milk', 'eggs'})",4
+127,0.4,"frozenset({'onion', 'yogurt', 'nutmeg', 'eggs'})",4
+128,0.2,"frozenset({'onion', 'kidney beans', 'nutmeg', 'milk'})",4
+129,0.2,"frozenset({'yogurt', 'kidney beans', 'nutmeg', 'milk'})",4
+130,0.2,"frozenset({'onion', 'yogurt', 'kidney beans', 'milk'})",4
+131,0.2,"frozenset({'unicorn', 'yogurt', 'kidney beans', 'milk'})",4
+132,0.4,"frozenset({'onion', 'yogurt', 'kidney beans', 'nutmeg'})",4
+133,0.2,"frozenset({'onion', 'yogurt', 'nutmeg', 'milk'})",4
+134,0.2,"frozenset({'ice cream', 'kidney beans', 'eggs', 'onion', 'corn'})",5
+135,0.2,"frozenset({'unicorn', 'yogurt', 'kidney beans', 'milk', 'corn'})",5
+136,0.2,"frozenset({'kidney beans', 'eggs', 'onion', 'dill', 'nutmeg'})",5
+137,0.2,"frozenset({'yogurt', 'kidney beans', 'eggs', 'dill', 'nutmeg'})",5
+138,0.2,"frozenset({'yogurt', 'kidney beans', 'eggs', 'onion', 'dill'})",5
+139,0.2,"frozenset({'yogurt', 'eggs', 'onion', 'dill', 'nutmeg'})",5
+140,0.2,"frozenset({'yogurt', 'kidney beans', 'onion', 'dill', 'nutmeg'})",5
+141,0.2,"frozenset({'kidney beans', 'milk', 'onion', 'eggs', 'nutmeg'})",5
+142,0.2,"frozenset({'yogurt', 'kidney beans', 'milk', 'eggs', 'nutmeg'})",5
+143,0.2,"frozenset({'yogurt', 'kidney beans', 'milk', 'onion', 'eggs'})",5
+144,0.4,"frozenset({'yogurt', 'kidney beans', 'eggs', 'onion', 'nutmeg'})",5
+145,0.2,"frozenset({'yogurt', 'milk', 'onion', 'eggs', 'nutmeg'})",5
+146,0.2,"frozenset({'yogurt', 'kidney beans', 'milk', 'onion', 'nutmeg'})",5
+147,0.2,"frozenset({'yogurt', 'kidney beans', 'eggs', 'onion', 'dill', 'nutmeg'})",6
+148,0.2,"frozenset({'yogurt', 'kidney beans', 'milk', 'onion', 'eggs', 'nutmeg'})",6
