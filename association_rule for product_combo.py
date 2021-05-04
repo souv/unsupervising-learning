@@ -112,7 +112,7 @@ res_cate = association_rules(frequent_itemsets_cate,
 
 len(res_cate.index)
 
-final_freqsets['test_ante'] = tuple(final_freqsets['antecedents'])
+#final_freqsets['test_ante'] = tuple(final_freqsets['antecedents'])
 
 
 res_cate.to_csv('訂單產品類別關聯分析0315-0415.csv',encoding = 'utf_8_sig')
